@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin-top: 40px;
+}
+
+.container {
+  background: #1f2937;
+  height: 550px;
+  margin: 0 auto;
+  padding: 115px 52px 20px;
+  width: 550px;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  line-height: 40px;
+  margin-bottom: 10px;
+  margin-top: 0; /* Override Scrimba Editor Reset */
+}
+
+p {
+  color: #ccc;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 60px;
+}
+
+.password-controls {
+  border-bottom: 1px solid #2f3e53;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+}
+
+.accent-color {
+  color: #4adf86;
+}
+
+#btn-el {
+  background: #10b981;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 40px;
+  padding: 10px 15px;
+}
+
+#output-el {
+  background: #273549;
+  border-radius: 4px;
+  color: #55f991;
+  padding: 5px;
+  text-align: center;
+}
+
+.fa-bolt {
+  margin-right: 10px;
+}
+
+.password-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-field {
+  margin-right: 20px;
+}
+.password-field:last-child {
+  margin-right: 0;
+}
+
+.password-input {
+  background: #273549;
+  border: none;
+  border-radius: 4px;
+  color: #55f991;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.password-input::placeholder {
+  color: #202b3c;
+}
+
+.password-input:focus {
+  outline: none;
+}
